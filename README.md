@@ -53,10 +53,11 @@ This script processes the generated log file. It parses each log entry, vectoriz
 - rag_model.py:
 This file implements the RAG (Retrieval-Augmented Generation) model. It combines:
 
-A FAISS index for retrieving relevant log entries
-A log analysis component to generate statistics about the retrieved logs
-A language model (FLAN-T5) to generate human-readable answers based on the log analysis
-main.py
+--A FAISS index for retrieving relevant log entries
+--A log analysis component to generate statistics about the retrieved logs
+--A language model (FLAN-T5) to generate human-readable answers based on the log analysis
+
+-main.py
 The main script that provides an interactive interface for users to ask questions about the log data. It uses the RAG model to retrieve relevant information and generate answers.
 
 How it Works
